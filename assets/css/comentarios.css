@@ -1,0 +1,111 @@
+*{
+		font-family: calibri;
+	}
+	.bg-corpo{
+		background-color: #eee;
+		width: 800px;
+		left: 50%;
+		margin-left: -400px;
+		position: absolute;
+	}
+	.btn{
+	border-radius: 0px;
+	}
+	.btn:hover{
+		color: #fff;
+	}
+
+	.titulo{
+		margin: -8px;
+		padding: 5px;
+		background-color: #337ab7;
+	}
+	.titulo h2{
+		text-transform: uppercase;
+		color: #fff;
+		margin-left: 40px;
+	}
+	.comentario_fixo ul{
+
+		list-style: none;
+	}
+	.comentario_fixo ul li{
+		list-style: none;
+	}
+	.comentario_fixo{
+		overflow-y: scroll;
+		width: 800px;
+		height: 300px;
+		left: 50%;
+		margin-left: -400px;
+		padding: 5px;
+		margin-top: 20px;
+		background-color: #eee;
+		position: absolute;
+
+
+	}
+	.comentario_fixo p{
+		margin-top: -5px;
+		padding: 5px;
+	}
+	.comentario_novo{
+
+		margin-top: 350px;
+	}
+	.comentario_novo textarea{
+		width: 800px;
+		padding: 5px;
+		left: 50%;
+		margin-left: -400px;
+		position: absolute;
+	}
+	.comentario_novo span{
+		margin-left: 35px;
+		margin-left: 275px;
+	}
+	.comentario_novo .selecao{
+		margin-top: 150px;
+
+		padding: 5px;
+		width: 200px;
+		font-size: 16px;
+		text-transform: uppercase;
+	}
+
+	.botoes{
+		float: right;
+		margin-top: 150px;
+		margin-right: 265px;
+	}
+	.gravar{
+		width: 150px;
+		padding: 7px;
+		border: 0px;
+		
+		font-size: 17px;
+		color: #fff;
+		cursor: pointer;
+		background-color: #337ef7;
+	}
+	.gravar:hover{
+			background-color: #337 ab7;
+	}
+	.sair{
+		width: 150px;
+		padding: 7px;
+		border: 0px;
+		background-color: #ee0000;
+		cursor: pointer;
+		color: #fff;
+		
+		font-size: 17px;
+	}
+	.sair:hover{
+		background-color: #cc0000;
+	}
+	#data{
+		
+		color: #777;
+		font-size: 14px;
+	}

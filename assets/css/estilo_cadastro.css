@@ -1,0 +1,85 @@
+/* Estilo Cabeçalho */
+.cabecalho h2{
+	background-color: #337ab7;
+	color: #fff;
+	margin: 0px;
+	padding: 20px;
+}
+
+form .info-prop input{
+	border-radius: 0px;
+}
+form .info-prop1 select, input{
+	border-radius: 0px;
+}
+form .info-prop2 input{
+	border-radius: 0px;
+}
+form .info-prop3 textarea{
+	border-radius: 0px;
+}
+
+
+
+
+/*CSS da classe Lote*/
+
+.lote .bairro select{
+	border-radius: 0px;
+}
+.lote .bairro input{
+	border-radius: 0px;
+}
+
+/*Botoes*/
+#gravar{
+	border-radius: 0px;
+	background-color: #337ab7;
+	color: #fff;
+	margin-top: 50px;
+}
+#gravar:hover{
+	border-radius: 0px;
+	background-color: #337987;
+	color: #fff;
+}
+.info-prop3 .cancelar{
+	border-radius: 0px;
+	background-color: #fe1111;
+	color: #fff;
+	margin-top: 50px;
+}
+.info-prop3 .cancelar:hover{
+	background-color: #df0000;
+	color: #fff;
+	margin-top: 50px;
+}
+
+.botoes button{
+	border-radius: 0px;
+}
+.botoes .salvar{
+	background-color: #337ab7;
+	color: #fff;
+	width: 150px;
+	margin-top: 50px;
+}
+.botoes .salvar:hover{
+	background-color: #3379a7;
+	color: #fff;
+	width: 150px;
+	margin-top: 50px;
+}
+.botoes .cancelar{
+	background-color: #fe1111;
+	color: #fff;
+	margin-top: 50px;
+}
+.botoes .cancelar:hover{
+	background-color: #df0000;
+	color: #fff;
+	margin-top: 50px;
+}
+.botoes .salvar:before{
+	color: #fff;
+}

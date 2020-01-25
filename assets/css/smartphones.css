@@ -1,0 +1,286 @@
+@media  only screen and (max-width: 991px) {
+*{
+	border: 0px;
+	margin: 0px;
+	z-index: 0;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+
+}
+.sair{
+	margin: 0px;
+	padding: 5px;
+	background-color: #337ab7;
+}
+.sair span{
+	color: #fff;
+	margin-left: 40px;
+}
+.sair texto{
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+header{
+	position: relative;
+	padding: 20px;
+	width: 100%;
+
+}
+header .navbar-brand{
+	margin-top: -20px;
+	text-align: center;
+}
+.icon-bar{
+	color: #000;
+	z-index: 1;
+}
+.bg-tabela-informacoes{
+	position: relative;
+	background-color: #3969a0;
+	padding-top: 5px;
+	padding-bottom: 50px;
+}
+.tabela{
+	margin-top: 7px;
+	overflow-x: scroll;
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	padding: 0px;
+}
+table{
+	width: 100%;
+	margin-left: 0px;
+	
+	
+}
+
+.table tr th{
+	background-color: #337ab7;
+	color: #fff;
+}
+.table tr td{
+	width: 100%;
+	height: 15px;
+	font-size: 12px;
+	background-color: #fff;
+}
+
+#botoes{
+	position: relative;
+	margin-left: 0;
+	margin-top: 0px;
+	width: 	100%;
+	z-index: 1;
+}
+.cadastrar{
+	background-image: url("../img/adicionar.jpg");
+	background-size: cover;
+	border-radius: 50px;
+	top: 85%;
+	left: 80%;
+	width: 50px;
+	height: 50px;
+	box-shadow: 0px 1px 7px black;
+	position: fixed;
+	font-size: 30px;
+	font-weight: bold;
+	
+
+}
+.cadastrar:hover{
+	transition: all .3s cubic-bezier(0.2, 1.5, 0.2, 1.000);
+	transform: scale(1.1);
+	box-shadow: 0px 0px 7px black;
+	
+}
+/*.editar{
+	color: #337ab7;
+}*/
+.concluidos{
+	background-image: url("../img/logo.jpg");
+	background-size: cover;
+	border-radius: 50px;
+	top: 75%;
+	left: 80%;
+	width: 50px;
+	height: 50px;
+	box-shadow: 0px 1px 7px black;
+	position: fixed;
+	font-size: 18px;
+	font-weight: bold;
+	
+	/*background-color: #4ad140;
+	color: #fff;
+	border-radius: 0;
+	box-shadow: 0px 2px 3px black;*/
+}
+
+.concluidos:hover{
+	transition: all .3s cubic-bezier(0.2, 1.5, 0.2, 1.000);
+	transform: scale(1.1);
+	box-shadow: 0px 0px 7px black;
+	
+	/*width: 60px;*/
+	/*font-size: 20px;*/
+	/*height: 60px;*/
+	/*padding: 15px;*/
+	/*color: #fff;*/
+}
+
+
+.cadastrar:hover{
+	background-color: #337cd7;
+	color: #fff;
+}
+
+/*CSS do setor de prefeituras*/
+.acesso{
+	position: relative;
+	z-index: 0;
+}
+
+.box{
+	margin-top: 20px;
+	z-index: -999;
+}
+.box h4{
+	margin-top: 20px;
+	border-radius: 5px 5px 0 0 ;
+	text-align: center;
+	color: #fff;
+	background-color: #337ab7;
+	padding: 5px;
+	z-index: 999;
+
+}
+.box1{
+	margin-top: -10px;
+	border-radius: 0 0 5px 5px;
+	background-color: #fff;
+	border:1px solid #ccc;
+	min-height: 100px;
+	
+
+
+}
+
+/*PREFEITURAS*/
+#prefeitura{
+	margin: 0px;
+
+}
+#prefeitura .painel{
+	background-color: #fff;
+	margin: -20px 0 0 0;
+	padding-bottom: 30px;
+
+	width: 100%;
+}
+
+#prefeitura .painel h2{
+	width: 100%;
+	position: absolute;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin: 0 0 0 0;
+	background-color: #337ab7;
+}
+#prefeitura .painel div h3{
+	margin-top: 80px;
+	text-align: center;
+	color: #337877;
+	padding: 10px;
+}
+#prefeitura .painel div p{
+	text-align: center;
+	color: #337877;
+	padding: 0px;
+}
+/*CADASTRAR PROJETOS*/
+.cadastrar-novo-projeto{
+	width: 900px;
+	height: 600px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	background-color: #fff;
+	margin-left: -450px;
+	margin-top: -300px;
+	padding-top: 40px;
+	display: none;
+	z-index: 999;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+
+/*IMAGEM COM EMAILS */
+.bg-img{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0, 0.7);
+	z-index: 1;
+	display: none;
+}
+.emails{
+	z-index: 2;
+	width: 600px;
+	height: 800px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -300px;
+	margin-top: -400px;
+	padding-top: 40px;
+	display: none;
+}
+.emails img{
+	margin-top: 40px;
+}
+/*RODAPE*/
+.rodape{
+	height: 400px;
+	background-color: #337ab7;
+	color: #fff;
+	margin-bottom: 0px;
+	padding: 20px;
+
+}
+.rodape .box_rodape{
+	color: #fff;
+	padding: 20px;
+}
+.rodape  h2{
+
+	text-align: center;
+}
+.rodape a{
+	color: white;
+}
+.rodape  p{
+	color: #fff;
+	margin-top: 20px;
+}
+.box1_rodape{
+	width: 100%;
+	padding: 20px;
+	background-color: #3969a0;
+	color: #fff;
+	text-align: center;
+	z-index: 4;
+	position: absolute;
+
+
+
+
+}
+}
