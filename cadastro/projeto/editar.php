@@ -79,10 +79,6 @@
                         $nome = $linha['nome_proj'];
                         $responsavel = $linha['operador'];
                         $telefone = $linha['telefone'];
-                        // $lote = $linha['lote'];
-                        // $quadra = $linha['quadra'];
-						// $logradouro = $linha['logradouro'];
-                        // $bairro = $linha['bairro'];
 						$tipo = $linha['tipo'];
                         $dt_inicio = $linha['data_inicio'];
                         $dt_termino = $linha['data_fim'];
