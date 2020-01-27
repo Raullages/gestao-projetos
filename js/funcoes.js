@@ -1,9 +1,10 @@
+const url_base = 'http://localhost/incentiva-master/'
 
 function exibeInformacaoProjeto (id) {
 
 	let codigo = `codigo=${id}`
 
-	httpGet('./../layout/components/comentarios/main.php', codigo).then(item => {
+	httpGet('layout/components/comentarios/main.php', codigo).then(item => {
 		document.getElementById('card-informacao').innerHTML = item
 	
 	})
@@ -11,12 +12,23 @@ function exibeInformacaoProjeto (id) {
 }
 
 function excluirProjeto (id) {
+
 	let excluir = confirm("Deseja realmente excluir Projeto?")
 
 	if(excluir){
-		alert("Item excluído com sucesso")
-		location.href = '../models/projeto/excluir.php?codigo=' + id
+
+		httpGet('controllers/projeto/excluir.php/', `codigo=${id}`).then(item =>{
+			if(item){
+				console.log(item)
+			}
+			// location.href = './../layout/main.php'
+		})
 	}
+
+	// if(excluir){
+	// 	alert("Item excluído com sucesso")
+	// 	location.href = './../models/projeto/excluir.php?codigo=' + id
+	// }
 }
 
 function salvarComentario ( id ) {
@@ -46,7 +58,7 @@ function httpGet(url, data) {
 
 	return new Promise((resolve, reject) => {
 		$.ajax({
-			url: url,
+			url: url_base + url,
 			type: 'GET',
 			data: data,
 			success: (response) => {

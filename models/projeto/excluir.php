@@ -1,13 +1,18 @@
 <?php 
-	include("conexao/conexao.php");
+	
+	include('./../../models/projeto/main.php');
+
 
 	$codigo = $_GET['codigo'];
 
-	$excluir = $con->query("DELETE FROM projeto where id = '$codigo'")or die(mysqli_error());
+	var_dump($codigo);
 
 
-	echo "<script>window.close(); </script>";
+	// $excluir = $con->query("DELETE FROM projeto where id = '$codigo'")or die(mysqli_error());
 
-	return true;
+
+	// echo "<script>window.close(); </script>";
+
+	// return true;
 
 ?>

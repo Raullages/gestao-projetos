@@ -42,7 +42,7 @@
 					<div class="col-xs-12 tabela table-responsive ">
 						<a target="_blank" 
 							onclick="window.open(this.href,'Editar','width=1024px, height=520px'); return false;" 
-							href="./../cadastro/projeto/cadastro.php" 
+							href="./modules/projetos/cadastro/main.php" 
 							class="btn btn-primary btn-xs cadastrar" 
 							data-toggle="tooltip" 
 							data-placement="bottom" 
@@ -76,7 +76,7 @@
 									<td class="text-center">
 										<a target='_blank'
 										onclick="window.open(this.href,'Editar','width=1024px, height=640px'); return false;"
-										href="./../cadastro/projeto/editar.php?codigo=<?php echo $linha['id'] ?>">
+										href="./modules/projetos/cadastro/editar.php?codigo=<?php echo $linha['id'] ?>">
 										<span class="glyphicon glyphicon-pencil editar" aria-hidden="true" title="Editar"></span>
 										</a>
 									</td>

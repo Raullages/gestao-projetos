@@ -1,12 +1,12 @@
     <!DOCTYPE html>
-    <?php require_once("./../../conexao/conexao.php");
+    <?php require_once("./../../../../conexao/conexao.php");
 
     ?>
     <html lang="pt-BR">
     <head>
     	<meta charset="UTF-8">
         <title>Cadastrar Cliente</title>
-        <link rel="stylesheet" type="text/css" href="./../../assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./../../../../assets/bootstrap/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     </head>
@@ -22,7 +22,7 @@
     <hr />
     <div class="servico">
 
-        <form action="cadastro_cliente_projeto.php" name='form' method="POST">
+        <form action="./../../../../models/projeto/cadastro.php" name='form' method="POST">
             <div class="row form-group">
                 <div class="col-md-5">
                     <p for="Nome Projeto">Nome Projeto *</p>
