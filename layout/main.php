@@ -40,15 +40,17 @@
 											padding-top: 10px; 
 											padding-bottom: 20px;">
 					<div class="col-xs-12 tabela table-responsive ">
-						<a target="_blank" 
-							onclick="window.open(this.href,'Editar','width=1024px, height=520px'); return false;" 
-							href="./modules/projetos/cadastro/main.php" 
-							class="btn btn-primary btn-xs cadastrar" 
-							data-toggle="tooltip" 
-							data-placement="bottom" 
-							title="Cadastrar um novo projeto">
-							CADASTRAR
-						</a>
+						<div class="text-right">
+							<a target="_blank" 
+								onclick="window.open(this.href,'Editar','width=1024px, height=520px'); return false;" 
+								href="./modules/projetos/cadastro/main.php" 
+								class="btn btn-primary btn-xs" 
+								data-toggle="tooltip" 
+								data-placement="bottom" 
+								title="Cadastrar um novo projeto">
+								CADASTRAR
+							</a>
+						</div>
 						<hr style="margin: 8px 0px">
 						<table class="table table-hover table-condensed">
 							<thead>

@@ -40,10 +40,10 @@
                 </div>
             </div>
             <div class="row form-group">
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <p for="">Tipo de Projeto*</p>
                     <select type="button" name="tipo" class="input-sm form-control" required>Tipo de Projeto
-                        <option value="">--</option>
+                        <option value="">Escolha</option>
                         <option value="Aprovacão Inicial">Aprovação Inicial</option>
                         <option value="Regularizacao">Regularização</option>
                         <option value="Imagens 3D">Imagens 3D</option>
@@ -51,26 +51,35 @@
                         <option value="Outros">Outros</option>
                     </select>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <p for="">Inicio *</p>
                     <input type="date" name="dt_inicio" class="form-control" required>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <p for="">Término *</p>
                     <input type="date" name="previsao" class="form-control" required>
                 </div>
+            </div>
 
-                <div class="col-md-2">
+            <div class="row form-group">
+                <div class="col-md-3">
                     <p for="">Status</p>
-                    <select type="button" name="status" placeholder="Status" class="form-control" required>
-                        <option value="">--</option>
+                    <select type="button" 
+                        name="status" 
+                        placeholder="Status" 
+                        class="input-sm form-control" 
+                        required>
+                        <option value="">Escolha</option>
                         <option value="Concluido">Concluido</option>
                         <option value="Pendente">Pendente</option>
                     </select>
                 </div>
                 <div class="col-md-3">
                     <p for="">Protocolo</p>
-                    <input type="text" name="protocolo" placeholder="Protocolo" class="form-control" >
+                    <input type="text" 
+                        name="protocolo" 
+                        placeholder="Protocolo" 
+                        class="input-sm form-control" >
                 </div>
             </div>
 
